@@ -91,7 +91,11 @@ This project covers a complete user journey through the e-commerce platform, val
 playwright-automation-e2e-test-project-1/
 │
 ├── tests/
-│   └── clientapp.spec.js          # Main test specification file
+│    ├── clientapp.spec.js          # Main test specification file
+│    └── clientappOPT.spec.js       # Optimised test specification file
+│
+├── screenshots/
+│   └── couponapplied.png          # Test data configuration
 │
 ├── test-data/
 │   └── testdata.json               # Test data configuration
